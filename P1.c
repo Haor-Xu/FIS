@@ -8,7 +8,6 @@ void MSRProduct (int *MSR_JM, double *MSR_VM, double *Vec, int n, double *Result
    }
    
 }
-#include <stdio.h>
 
 int main() {
     FILE *file = fopen("data.txt", "r");  // 打开文件，假设文件名为data.txt
